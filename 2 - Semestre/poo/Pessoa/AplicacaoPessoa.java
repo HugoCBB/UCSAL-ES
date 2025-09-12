@@ -12,7 +12,7 @@ public class AplicacaoPessoa {
         p2.setNome("Oliveira");
         p2.setIdade(10);
         p2.setProfissao("Piloto de formula 1");
-
+        
         System.out.println("|----------PESSOAS----------|");
         System.out.println("Primeira pessoa");
         System.out.println("Nome: "+p1.getNome());
