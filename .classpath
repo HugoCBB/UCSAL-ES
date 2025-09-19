@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="poo/recursividade/|poo/revisao/" kind="src" path="2 - Semestre"/>
+	<classpathentry kind="src" path="2 - Semestre/poo/recursividade"/>
+	<classpathentry kind="src" path="2 - Semestre/poo/revisao"/>
+	<classpathentry kind="output" path="out/production/2 - Semestre"/>
+</classpath>

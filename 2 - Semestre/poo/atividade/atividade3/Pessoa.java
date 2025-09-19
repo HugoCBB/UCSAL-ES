@@ -1,6 +1,4 @@
-package poo.atividade3;
-
-import java.util.Scanner;
+package poo.atividade.atividade3;
 
 public class Pessoa {
     String nome;
