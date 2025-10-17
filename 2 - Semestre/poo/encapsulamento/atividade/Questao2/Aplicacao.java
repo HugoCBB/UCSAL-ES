@@ -1,4 +1,4 @@
-package atividade.Questao2;
+package poo.encapsulamento.atividade.Questao2;
 
 public class Aplicacao {
     public static void main(String[] args) {

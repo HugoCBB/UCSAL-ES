@@ -1,4 +1,4 @@
-package atividade.Questao3; 
+package poo.encapsulamento.atividade.Questao3;
 
 public class Funcionario {
 

@@ -1,3 +1,6 @@
+package poo.encapsulamento.atividade.Questao1;
+
+
 public class Pessoa {
     private String nome, pais;
     private int idade;

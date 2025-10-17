@@ -1,5 +1,5 @@
 
-package atividade.Questao2;
+package poo.encapsulamento.atividade.Questao2;
 
 import java.util.Random;
 import java.util.Scanner;
