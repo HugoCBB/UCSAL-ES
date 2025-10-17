@@ -1,4 +1,4 @@
-package poo.heranca;
+package poo.heranca.pessoa;
 
 public class Pessoa {
     private String nome;
