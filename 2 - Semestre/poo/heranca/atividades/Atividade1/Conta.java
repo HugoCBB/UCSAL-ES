@@ -3,7 +3,7 @@ package poo.heranca.atividades.Atividade1;
 public class Conta {
     protected String nome;
     protected long numeroDaConta;
-    private double saldo = 1000;
+    protected double saldo = 1000;
 
     public void setNumeroDaConta(long numeroDaConta) {
         this.numeroDaConta = numeroDaConta;

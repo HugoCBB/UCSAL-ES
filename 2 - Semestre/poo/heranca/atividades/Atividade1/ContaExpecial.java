@@ -5,20 +5,35 @@ public class ContaExpecial extends Conta {
 
     public double getLimite() { return this.limite;}
 
-    @Override
     public void saque(double valor) {
-        if (this.limite < valor || this.limite <= 0){
-            System.out.println("Limite indisponivel");
-            return;
-        }
         
-        if (getSaldo() <= 0) {
-            System.out.println("Saldo insuficiente");
-            return;
-        }
-        this.limite -= valor;
-        super.saque(valor);
+        if (this.saldo <= 0) {
+            if (this.limite < valor || this.limite <= 0) {
+                System.out.println("Limite indisponivel");
+                return;
+            }
+            
+            if (valor <= 0) {
+                System.out.println("Valor de saque invalido");
+                return;
+            }
 
+            this.limite -= valor;
+        } else {
+            if (this.saldo < valor ) {
+                System.out.println("Saldo indisponivel");
+                return;
+            }
+
+            if (valor <= 0) {
+                System.out.println("Valor de saque invalido");
+                return;
+            }
+            
+            this.saldo -= valor;
+        }
+
+    
     }
     
 }
