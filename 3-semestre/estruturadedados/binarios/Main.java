@@ -1,7 +1,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        int[] num  = new int[]{1,1,1};
+        int[] num  = new int[]{1,0,0,1,0,0,1};
         int numConvert = convertToDecimal(num, 8);
         System.out.println(numConvert);
     }

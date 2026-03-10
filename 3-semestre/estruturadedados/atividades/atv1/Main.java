@@ -7,11 +7,11 @@ public class Main {
         li.add(3);
         li.add(4);
         li.add(5);
-        li.mostrarLIsta();
-        System.out.println("==========");
         
-        li.add(4, 0);
-        li.mostrarLIsta();
+        li.get();
+        System.out.println("=====================");
+        li.remove(2);
+        li.get();
 
         
     }    
